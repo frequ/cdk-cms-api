@@ -41,7 +41,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
       "My commitment extends beyond delivering quality work. I aim to be a dependable team member who not only provides solutions but also actively seeks ways for improvement through open dialogue.",
       "Outside of coding, I find solace in nature, cherish moments with my family, and channel my energy at the gym, indulging in powerlifting pursuits.",
     ],
-    footer_note_html: `This <a target="_blank" href="${frontendUrl}">application</a> leverages the server-side rendering features of SvelteKit and uses <a target="_blank" href="${cmsUrl}">AWS CDK built Lambda with API Gateway</a> as a content management system.`,
+    footer_note_html: `This <a target="_blank" href="${frontendUrl}">application</a> leverages the static site generation features of SvelteKit and uses <a target="_blank" href="${cmsUrl}">AWS CDK built Lambda with API Gateway</a> as a content management system.`,
   };
 
   const response = {
